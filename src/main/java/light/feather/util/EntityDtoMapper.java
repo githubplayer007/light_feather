@@ -14,7 +14,7 @@ public class EntityDtoMapper {
 				            dto.getFirstName(), 
 				            dto.getLastName(), 
 				            dto.getPhone(), 
-				            null);
+				            null);  // supervisor
 	}
 	
 	public static EmployeeDto entityToDto(Employee entity) {
