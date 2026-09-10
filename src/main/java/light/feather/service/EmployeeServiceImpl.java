@@ -58,6 +58,48 @@ public class EmployeeServiceImpl implements EmployeeService {
 				             .toList();
 	}
 	
+	
+//	try {
+//	    User user = restClient.get()
+//	        .uri("/users/{id}", userId)
+//	        .retrieve()
+//	        .body(User.class);
+//	} catch (RestClientResponseException e) {
+//	    if (e.getStatusCode().value() == 404) {
+//	        throw new UserNotFoundException("User not found: " + userId);
+//	    }
+//	    throw new ApiException("API call failed: " + e.getMessage());
+//	}
+	
+//	String result = restClient.get() 
+//			.uri("https://example.com/this-url-does-not-exist") 
+//			.retrieve()
+//			.onStatus(HttpStatusCode::is4xxClientError, (request, response) -> { 
+//				throw new MyCustomRuntimeException(response.getStatusCode(), response.getHeaders()); 
+//			})
+//			.body(String.class);
+
+//	MultiValueMap<String, Object> parts = new LinkedMultiValueMap<>();
+//
+//	parts.add("fieldPart", "fieldValue");
+//	parts.add("filePart", new FileSystemResource("...logo.png"));
+//	parts.add("jsonPart", new Person("Jason"));
+//
+//	HttpHeaders headers = new HttpHeaders();
+//	headers.setContentType(MediaType.APPLICATION_XML);
+//	parts.add("xmlPart", new HttpEntity<>(myBean, headers));
+
+	// send using RestClient.post or RestTemplate.postForEntity
+	
+	
+//	Pet pet = ... 
+//			ResponseEntity<Void> response = restClient.post() 
+//				.uri("https://petclinic.example.com/pets/new") 
+//				.contentType(APPLICATION_JSON) 
+//				.body(pet) 
+//				.retrieve()
+//				.toBodilessEntity();
+	
 	@Transactional
 	private Supervisor saveSupervisor(Supervisor newEntity) {
 		Supervisor supervisor = supervisorRepository.findByIdentificationNumber(newEntity.getIdentificationNumber());

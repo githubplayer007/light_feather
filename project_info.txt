@@ -3,3 +3,5 @@ RestClient: https://www.google.com/search?q=Spring+boot+tutorial+RestClient+exam
 Test data source: https://o3m5qixdng.execute-api.us-east-1.amazonaws.com/api/managers
 
 I add jpa stuff to the original requirements.
+
+For RestClient vs WebClient see: https://docs.bswen.com/blog/2026-03-11-when-use-restclient-webclient/
