@@ -1,0 +1,5 @@
+https://www.google.com/search?q=Spring+boot+tutorial+RestClient+example&oq=Spring+boot+tutorial+RestClient+example&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRirAtIBCDgyNDBqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8
+
+test data source: https://o3m5qixdng.execute-api.us-east-1.amazonaws.com/api/managers
+
+I add jpa stuff to the original requirements.
