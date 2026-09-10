@@ -1,8 +1,6 @@
 package light.feather.util;
 
 import java.util.ArrayList;
-import java.util.List;
-
 import light.feather.dto.EmployeeDto;
 import light.feather.dto.SupervisorDto;
 import light.feather.entity.Employee;
